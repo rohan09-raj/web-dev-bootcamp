@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Dev Bootcamp</title>
+</head>
+<body>  
+  <div class="flex">
+    <div class="card">
+      <div class="image">
+        <img src="./images/baloon.webp" alt="" />
+      </div>
+      <div class="text">
+        <h3> I am a baloon </h3>
+        <p> I am stupid but can fly you to your death </p>
+      
+        <div class="user">
+          <div class="user_img">
+            <img src="./images/user.jpeg" alt="user">
+          </div>
+          <div class="user_info">
+            <h4> Rohan Gupta </h4> 
+            <p> Yesterday </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .heading {
+      color: red;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 500px;
+
+    }
+
+    .image {
+      width: 100%;
+      height: 50%;
+    }
+
+    .image img {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .flex {
+      display: flex;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      justify-content: center;
+    }
+
+    .text {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      background-color: beige;
+      height: 50%;
+
+    }
+
+    .user {
+      display: flex;
+      width: 160px;
+      height: 50px;
+      background-color: rgb(175, 0, 0);
+    }
+
+    .user_img {
+      width: 30%;
+    }
+
+    .user_img img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    .user_info {
+      font-size: 12px;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 5px;
+    }
+
+    .user_info h4 {
+      color: white;
+      font-size: 12px;
+    }
+
+    .user_info p {
+      color: white;
+      font-size: 10px;
+    }
+  </style>
+</body>
+</html>
