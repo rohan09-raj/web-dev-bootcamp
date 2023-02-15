@@ -1,4 +1,4 @@
-# web-dev-bootcamp
+# Web Development Bootcamp
 ### A Web development bootcamp for everyone -> Frontend development - HTML CSS JS REACT :)  
 
 
