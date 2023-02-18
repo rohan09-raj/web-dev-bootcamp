@@ -1,6 +1,9 @@
 # Web Development Bootcamp
 ### A Web development bootcamp for everyone -> Frontend development - HTML CSS JS REACT :)  
 
+Reference to Presentation: 
+[Presentation](https://docs.google.com/presentation/d/1KMZOL3dsK-MJj3DqM4JqatdjNHWXBNjadH1EFYy7SHQ/edit#slide=id.g15c893fb53a_2_2) 
+
 
 ## Steps to deploy your website
 There are various platforms on which you can deploy your website. Here we will be using `https://render.com/`
